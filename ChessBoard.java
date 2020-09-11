@@ -1,4 +1,4 @@
-package Pattern;
+package chess;
 
 import javax.swing.*;
 import java.awt.*;
@@ -24,8 +24,6 @@ public ChessBoard() {
             frame.add(squares[i][j]);
         }
     }
-    
-  
    
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
